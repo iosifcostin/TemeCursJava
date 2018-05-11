@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 public class Sortare_19 {
     public static void main(String[] args) {
@@ -24,8 +24,12 @@ public class Sortare_19 {
             for (int d=0; d<array.length; d++)
             System.out.println(array[d]);
 
+//
+       // sau :
 
+//       Arrays.sort(array);
+//        for (int i=0; i<array.length; i++){
+//            System.out.println(array[i]);
+        }
 
     }
-
-}
