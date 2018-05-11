@@ -6,10 +6,11 @@ public class TabelaConversie_5{
         int x = SkeletonJava.readIntConsole("intre : ");
         int y = SkeletonJava.readIntConsole("si : ");
 
-        int celsius= (x-32)*5/9;  // x = Fahrenheit
+        float celsius;
 
         for (int i = x; i<=y; i++){
-            System.out.println(i+ " Fahrenheit = " + celsius + " Celsius" );
+            celsius = (float)(i-32)*5/9;
+            SkeletonJava.printConsole(i+ " Fahrenheit = " + celsius + " Celsius" );
         }
 
 
